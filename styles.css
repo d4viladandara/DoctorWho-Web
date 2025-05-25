@@ -1,19 +1,42 @@
 
 h1 {
-  font-family: "Georgia", serif;
-  color: #25afce;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-style:inherit;
+  font-style: normal;
+  color: #25afce;
   text-align: center;
   padding: 15px;
 }
 
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
 body {
-  background-color: #e3c3f7;
-  color: #000000;
+  background-color: #1A1A40;
+  color: #ffffff;
 }
 
 span {
   font-weight: bolder;
   text-transform: capitalize;
 }
+
+.img-centro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
