@@ -1,0 +1,19 @@
+
+h1 {
+  font-family: "Georgia", serif;
+  color: #25afce;
+  font-weight: 400;
+  font-style:inherit;
+  text-align: center;
+  padding: 15px;
+}
+
+body {
+  background-color: #e3c3f7;
+  color: #000000;
+}
+
+span {
+  font-weight: bolder;
+  text-transform: capitalize;
+}
