@@ -45,6 +45,12 @@ h2 {
   color: #25afce;
   line-height: 1.5;
   text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer; 
+}
+
+h2:hover {
+  transform: scale(1.2);
 }
 
 body {
@@ -72,15 +78,6 @@ h1 {
 }
 
 h1:hover {
-  transform: scale(1.2);
-}
-
-h2 {
-  transition: transform 0.3s ease;
-  cursor: pointer; 
-}
-
-h2:hover {
   transform: scale(1.2);
 }
 
