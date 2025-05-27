@@ -41,7 +41,6 @@ p {
 
 h2 {
   font-family: "Goldman", sans-serif;
-  font-style: italic;
   font-size: 24px;
   color: #25afce;
   line-height: 1.5;
@@ -88,6 +87,7 @@ table {
         width: 40%;
         background-color: #1a1a40;
         color: white;
+        box-shadow: 0 0 10px #00d9ff66;
         }
 
  th, td {
