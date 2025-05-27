@@ -24,7 +24,7 @@
 
 
 h1 {
-  font-family: "Unica One", cursive;
+  font-family: "Goldman", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: italic;
@@ -33,7 +33,8 @@ h1 {
   padding: 15px;
 }
 
-h2 {font-family: Arial, sans-serif;
+h2 {
+  font-family: "Goldman", sans-serif;
   font-size: 16px;
   color: #ba10e5;
   line-height: 1.5; 
@@ -46,7 +47,7 @@ p {
 }
 
 h3 {
-  font-family: Arial, sans-serif;
+  font-family: "Goldman", sans-serif;
   font-size: 16px;
   color: #ffffff;
   line-height: 1.5;
