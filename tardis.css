@@ -23,10 +23,10 @@
 }
 
 h1 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Goldman", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
   color: #25afce;
   text-align: center;
   padding: 15px;
@@ -40,7 +40,7 @@ p {
 }
 
 h2 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Goldman", sans-serif;
   font-size: 24px;
   color: #25afce;
   line-height: 1.5;
@@ -87,6 +87,7 @@ table {
         width: 40%;
         background-color: #1a1a40;
         color: white;
+        box-shadow: 0 0 10px #00d9ff66;
         }
 
  th, td {
