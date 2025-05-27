@@ -1,14 +1,19 @@
 
 h1 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Unica One", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
   color: #25afce;
   text-align: center;
   padding: 15px;
 }
 
+h2 {font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #ba10e5;
+  line-height: 1.5; 
+}
 p {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -24,7 +29,7 @@ h3 {
 }
 
 body {
-  background-color: #1A1A40;
+  background-color: #1c1d45;
   color: #ffffff;
 }
 
@@ -38,7 +43,9 @@ span {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+  height:"300"
 }
+
 
 h1 {
   transition: transform 0.3s ease;
@@ -47,4 +54,33 @@ h1 {
 
 h1:hover {
   transform: scale(1.2);
+} 
+
+a {
+  font-size: 18px;     
+  color: #ffffff;      
+  text-decoration: none; 
 }
+
+.trilha {
+      background-color: #242551;
+      padding: 15px;
+      margin: 15px auto;
+      border-radius: 10px;
+      max-width: 700px;
+      box-shadow: 0 0 10px #00d9ff66;
+    }
+    .trilha h2 {
+      margin: 0;
+      color: #00d9ff;
+    }
+    .trilha p {
+      margin: 5px 0;
+    }
+    .trilha a {
+      color: #9d11b6;
+      text-decoration: none;
+    }
+    .trilha a:hover {
+      text-decoration: underline;
+    }
