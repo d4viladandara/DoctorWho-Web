@@ -55,6 +55,12 @@ h3 {
   line-height: 1.5;
 }
 
+figcaption {
+  font-size: 14px;
+  color: #d7c8c8;
+  margin-top: 5px;
+}
+
 body {
   background-color: #1c1d45;
   color: #ffffff;
@@ -70,8 +76,6 @@ span {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  height:"300";
-  width: "400";
 }
 
 

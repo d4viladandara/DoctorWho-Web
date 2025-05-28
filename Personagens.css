@@ -6,20 +6,38 @@ body {
   padding: 20px;
 }
 
-/* Título principal */
+h2 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #771b81;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 h1 {
   text-align: center;
   color: #25afce;
   margin-bottom: 30px;
 }
 
-/* Subtítulos dos Doutores */
 h3 {
   margin-top: 40px;
   color: #2a6cae;
 }
 
-/* Parágrafos explicativos */
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
 p {
   max-width: 800px;
   margin: 10px auto;
@@ -27,32 +45,28 @@ p {
   text-align: justify;
 }
 
-/* Centralizar imagens */
 .img-centro {
   display: block;
   margin: 10px auto;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-/* Estilo para figcaption */
 figcaption {
   font-size: 14px;
   color: #d7c8c8;
   margin-top: 5px;
 }
 
-/* Links */
+
 a {
   color: #2980b9;
   text-decoration: none;
+  font-size: 14px;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .img-centro {
     width: 90% !important;
@@ -64,44 +78,24 @@ a:hover {
   }
 }
 
-.tabela-doutores {
-  background-color: #1e1f3d;
-  padding: 20px;
-  margin: 20px auto;
-  border-radius: 12px;
-  max-width: 900px;
-  box-shadow: 0 0 12px #00d9ff88;
-  color: #ffffff;
-  font-family: 'Roboto Mono', monospace;
-}
+table {
+        margin: 5px auto;
+        border-collapse: collapse;
+        width: 40%;
+        background-color: #1a1a40;
+        color: white;
+        box-shadow: 0 0 10px #00d9ff66;
+        }
 
-.tabela-doutores h2 {
-  text-align: center;
-  color: #00d9ff;
-  margin-bottom: 20px;
-}
+ th, td {
+        border: 3px solid #722479;
+        padding: 12px;
+        text-align: center;
+        }
 
-.tabela-doutores table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.tabela-doutores th, .tabela-doutores td {
-  border: 1px solid #444;
-  padding: 10px;
-  text-align: center;
-}
-
-.tabela-doutores th {
-  background-color: #2a2b5c;
-  color: #9d11b6;
-}
-
-.tabela-doutores tr:nth-child(even) {
-  background-color: #2e2f66;
-}
-
-.tabela-doutores tr:hover {
-  background-color: #393b7a;
-  transition: 0.3s;
-}
+th {
+     background-color: #7528759a;
+        }
+ul {
+    text-align: left;
+        }
