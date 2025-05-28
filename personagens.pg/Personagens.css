@@ -1,3 +1,39 @@
+header{
+    background-color: #49204d;
+    padding: 20px;
+    border-bottom: 1px solid rgb(231, 178, 244);
+    box-shadow: 0 0 20px #00d9ff66;
+}
+
+body {
+    background-color: #1c1d45;
+    color: #ffffff;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 25px;
+}
+
+nav ul li a{
+    color: rgb(199, 210, 219);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+}
+
+nav ul li a:hover{
+    color: rgb(231, 178, 244);
+    transform: scale(1.2);
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: radial-gradient(circle at top,#1c1d45);

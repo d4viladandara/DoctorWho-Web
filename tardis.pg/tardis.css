@@ -1,25 +1,36 @@
-.nav {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  padding: 10px;
-  background-color: #49204d;
-  margin: 0;
+header{
+    background-color: #49204d;
+    padding: 20px;
+    border-bottom: 1px solid rgb(231, 178, 244);
+    box-shadow: 0 0 20px #00d9ff66;
 }
 
-.nav li a {
-  text-decoration: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
-  background-color: #9b52a5;
-  padding: 5px 20px;
-  border-radius: 8px;
-  transition: background-color 0.3s;
+body {
+    background-color: #1c1d45;
+    color: #ffffff;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 25px;
 }
 
-.nav li a:hover {
-  background-color: #1a1a40;
+nav ul li a{
+    color: rgb(199, 210, 219);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+}
+
+nav ul li a:hover{
+    color: rgb(231, 178, 244);
+    transform: scale(1.2);
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
 }
 
 h1 {
