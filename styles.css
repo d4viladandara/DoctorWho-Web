@@ -36,7 +36,7 @@ h1 {
 h2 {
   font-family: "Goldman", sans-serif;
   font-size: 16px;
-  color: #ba10e5;
+  color: #8f4d9f;
   line-height: 1.5; 
 }
 p {
@@ -48,8 +48,9 @@ p {
 
 h3 {
   font-family: "Goldman", sans-serif;
-  font-size: 16px;
-  color: #ffffff;
+  font-size: 20px;
+  font-style: italic;
+  color: #894194;
   line-height: 1.5;
 }
 
@@ -68,7 +69,8 @@ span {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  height:"300"
+  height:"300";
+  width: "400";
 }
 
 
@@ -82,7 +84,7 @@ h1:hover {
 } 
 
 a {
-  font-size: 18px;     
+  font-size: 16px;     
   color: #ffffff;      
   text-decoration: none; 
 }
