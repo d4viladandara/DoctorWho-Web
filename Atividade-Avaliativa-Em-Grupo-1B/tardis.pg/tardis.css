@@ -13,32 +13,6 @@ h2:hover {
   transform: scale(1.2);
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  gap: 25px;
-}
-
-nav ul li a {
-  color: rgb(199, 210, 219);
-  text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px; /* Defina um tamanho fixo */
-  transition: 0.2s;
-}
-
-nav ul li a:hover {
-  color: rgb(231, 178, 244);
-  transform: scale(1.2);
-}
-
-nav ul li:hover {
-  transform: scale(1.1);
-}
-
 span {
   font-weight: bolder;
   text-transform: capitalize;
@@ -53,7 +27,7 @@ span {
 
 
 table {
-         margin: 5px auto;
+        margin: 5px auto;
         border-collapse: collapse;
         width: 40%;
         background-color: #1a1a40;
