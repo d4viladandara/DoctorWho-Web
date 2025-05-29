@@ -142,9 +142,10 @@ a {
     }
     .trilha p {
       margin: 5px 0;
+      position: relative;
     }
     .trilha a {
-      color: #9d11b6;
+      color: #00d9ff;
       text-decoration: none;
     }
     .trilha a:hover {
