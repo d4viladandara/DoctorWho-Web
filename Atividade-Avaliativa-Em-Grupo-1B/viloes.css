@@ -1,14 +1,3 @@
-p.descricao{
-    font-size: 18px;
-    line-height: 1.7;
-    padding: 10px 25px;
-    background-color: #292a5a;
-    margin: 20px auto;
-    max-width: 800px;
-    border-radius: 8px;
-    margin-top: 40px;
-}
-
 .img-anjos {
     position: relative;
     width:800px;
