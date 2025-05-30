@@ -1,17 +1,4 @@
 
-h2 {
-  font-family: "Goldman", sans-serif;
-  font-size: 24px;
-  color: #25afce;
-  line-height: 1.5;
-  text-align: center;
-  transition: transform 0.3s ease;
-  cursor: pointer; 
-}
-
-h2:hover {
-  transform: scale(1.2);
-}
 
 span {
   font-weight: bolder;
@@ -48,3 +35,14 @@ th {
 ul {
     text-align: left;
         }
+
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: #e6bff4;
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 10px;
+}

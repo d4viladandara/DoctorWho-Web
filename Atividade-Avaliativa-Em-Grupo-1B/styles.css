@@ -65,7 +65,7 @@ h2::before {
 }
 
 blockquote {
-    text-align: center;
+    text-align: justify;
     font-style: italic;
     font-size: 20px;
     color: #e6bff4;
