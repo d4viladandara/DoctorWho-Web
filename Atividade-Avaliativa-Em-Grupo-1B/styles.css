@@ -165,9 +165,19 @@ a {
       position: relative;
     }
     .trilha a {
-      color: #00d9ff;
+      color: #9d00ff;
       text-decoration: none;
     }
     .trilha a:hover {
       text-decoration: underline;
     }
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+  
+}
+    
+  
