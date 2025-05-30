@@ -5,6 +5,11 @@ header{
     box-shadow: 0 0 20px #00d9ff66;
 }
 
+body {
+    background-color: #1c1d45;
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+}
 nav ul{
     list-style: none;
     display: flex;
@@ -65,19 +70,27 @@ h2::before {
 }
 
 blockquote {
-    text-align: justify;
+    text-align: center;
     font-style: italic;
     font-size: 20px;
     color: #e6bff4;
     margin: 30px auto;
+    max-width: 600px;
+    padding: 10px;
 }
 
-footer {
-    text-align: center;
-    color: #b8b0b0;
-    padding: 8px;
-    font-size: 20px;
+blockquote p {
+    margin: 0;
 }
+
+blockquote footer {
+    display: block;
+    margin-top: 10px;
+    color: #b8b0b0;
+    font-size: 15px;
+    font-style: normal;
+}
+
 
 
 p {
@@ -224,13 +237,17 @@ main {
 
 
 footer {
-  background-color: #1c1d45;
+  text-align: left;
   color: #b8b0b0;
   padding: 12px 20px;
   font-size: 16px;
+  background-color: #1c1d45;
   border-top: 1px solid #333;
-
-  text-align: left;
-  width: 100%;
   margin-top: auto;
 }
+
+
+
+
+    
+  

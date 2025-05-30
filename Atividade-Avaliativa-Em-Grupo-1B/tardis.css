@@ -37,12 +37,3 @@ ul {
         }
 
 
-blockquote {
-    text-align: center;
-    font-style: italic;
-    font-size: 20px;
-    color: #e6bff4;
-    margin: 30px auto;
-    max-width: 600px;
-    padding: 10px;
-}
