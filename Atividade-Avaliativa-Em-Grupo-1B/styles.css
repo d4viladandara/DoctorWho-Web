@@ -9,6 +9,9 @@ body {
     background-color: #1c1d45;
     color: #ffffff;
     font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 nav ul{
     list-style: none;
@@ -211,12 +214,22 @@ a {
       text-decoration: underline;
     }
 
-footer {
-    text-align: center;
-    color: white;
-    padding: 20px;
-    font-family: 'Roboto Mono', monospace;
-  
+main {
+  flex: 1;
 }
+
+footer {
+  text-align: left;
+  color: #b8b0b0;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #1c1d45;
+  border-top: 1px solid #333;
+  margin-top: auto; 
+}
+
+
+
+
     
   

@@ -14,14 +14,14 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   color: #fff;
-  padding-top: 80px; /* espaço para o menu fixo */
+  padding-top: 80px; 
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-/* Menu fixo */
+
 header {
   position: fixed;
   top: 0;
@@ -52,7 +52,7 @@ nav a:hover {
   border-radius: 8px;
 }
 
-/* Conteúdo de boas-vindas */
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 40px;
