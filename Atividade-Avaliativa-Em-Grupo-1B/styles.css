@@ -172,5 +172,12 @@ a {
       text-decoration: underline;
     }
 
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+  
+}
     
   
