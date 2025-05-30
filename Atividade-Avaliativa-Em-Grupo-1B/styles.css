@@ -69,6 +69,22 @@ h2::before {
     border-radius: 4px;
 }
 
+blockquote {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: #e6bff4;
+    margin: 30px auto;
+}
+
+footer {
+    text-align: center;
+    color: #b8b0b0;
+    padding: 8px;
+    font-size: 20px;
+}
+
+
 p {
   max-width: 800px;
   margin: 10px auto;
@@ -97,6 +113,28 @@ h3 {
   padding-left: 40px;
   
 }
+
+table {
+        margin: 5px auto;
+        border-collapse: collapse;
+        width: 40%;
+        background-color: #1a1a40;
+        color: white;
+        box-shadow: 0 0 10px #00d9ff66;
+        }
+
+th, td {
+        border: 3px solid #722479;
+        padding: 12px;
+        text-align: center;
+        }
+
+th {
+ background-color: #7528759a;
+        }
+ul {
+    text-align: left;
+        }
 
 figcaption {
   font-size: 14px;
@@ -150,7 +188,7 @@ a {
 
 .trilha {
       background-color: #242551;
-      padding: 15px;
+      padding: 10px;
       margin: 15px auto;
       border-radius: 10px;
       max-width: 700px;
@@ -159,6 +197,7 @@ a {
     .trilha h2 {
       margin: 0;
       color: #00d9ff;
+      text-align: center;
     }
     .trilha p {
       margin: 5px 0;
