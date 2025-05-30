@@ -1,59 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-      body {
-        font-family: "Montserrat", sans-serif;
-        background-image: url("https://i.pinimg.com/736x/42/c5/5d/42c55d84163b9e20351a40576162e15a.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 200vh;
-        color: #fff;
-        display: flex;
-        
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      }
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("https://i.pinimg.com/736x/42/c5/5d/42c55d84163b9e20351a40576162e15a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+  padding-top: 80px; /* espaço para o menu fixo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-      .overlay {
-        background-color: rgba(0, 0, 0, 0.5); /* camada escura para contraste */
-        padding: 40px;
-        border-radius: 20px;
-      }
+/* Menu fixo */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0;
+  z-index: 1000;
+}
 
-      h1 {
-        color: rgb(33, 184, 255);
-        font-size: 3em;
-        font-weight: 700;
-        margin-bottom: 20px;
-      }
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
 
-      p {
-        font-size: 1.2em;
-        margin-bottom: 40px;
-        color: #e0e0e0;
-      }
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: background 0.3s ease;
+}
 
-    .btn {
-        background-color: #fff;
-        color: #5d60ef;
-        padding: 15px 30px;
-        font-size: 1em;
-        font-weight: 700;
-        border: none;
-        border-radius: 30px;
-        cursor: pointer;
-        transition: 0.3s ease;
-        text-decoration: none; /* <- Isso remove o sublinhado */
-        display: inline-block; /* <- Garante aparência de botão mesmo sendo <a> */
-      }
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
 
-      .btn:hover {
-        background-color: #e0e0e0;
-      }
+/* Conteúdo de boas-vindas */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
+h1 {
+  color: rgb(33, 184, 255);
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  color: #e0e0e0;
+}
+
+.btn {
+  background-color: #fff;
+  color: #5d60ef;
+  padding: 15px 30px;
+  font-size: 1em;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #e0e0e0;
+}
