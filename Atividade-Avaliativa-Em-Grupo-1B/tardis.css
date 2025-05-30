@@ -1,17 +1,4 @@
 
-h2 {
-  font-family: "Goldman", sans-serif;
-  font-size: 24px;
-  color: #25afce;
-  line-height: 1.5;
-  text-align: center;
-  transition: transform 0.3s ease;
-  cursor: pointer; 
-}
-
-h2:hover {
-  transform: scale(1.2);
-}
 
 span {
   font-weight: bolder;
