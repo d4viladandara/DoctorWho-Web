@@ -7,14 +7,14 @@ table {
         box-shadow: 0 0 10px #00d9ff66;
         }
 
- th, td {
+th, td {
         border: 3px solid #722479;
         padding: 12px;
         text-align: center;
         }
 
 th {
-     background-color: #7528759a;
+    background-color: #7528759a;
         }
 ul {
     text-align: left;
