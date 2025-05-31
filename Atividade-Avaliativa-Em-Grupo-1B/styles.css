@@ -1,8 +1,35 @@
 header{
-    background: linear-gradient(to right, #1e416f, #43105b);
+    background: linear-gradient(to right, #1e416f, #4e1369);
     padding: 20px;
     border-bottom: 1px solid rgb(231, 178, 244);
     box-shadow: 0 0 20px #00d9ff66;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
 }
 
 body {
@@ -41,8 +68,8 @@ h1 {
     color: #ffffff;
     text-align: center;
     padding: 20px 30px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 90px;
+    margin-bottom: 40px;
     border-radius: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
