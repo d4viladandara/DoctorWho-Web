@@ -8,13 +8,12 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url("https://i.pinimg.com/736x/b6/ae/54/b6ae5426574e5e98c8c8e26e8e90cd57.jpg");
+  background-image: url("https://t90131550257.p.clickup-attachments.com/t90131550257/64c73eb7-73c5-4028-aa4d-f4702caf38a0/generated-image-0350498c-7417-4bdd-87ad-b73d582809cf.png?view=open");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   color: #fff;
-  padding-top: 80px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,8 +21,8 @@ body {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 40px;
+  background-color: rgba(145, 130, 205, 0.234);
+  padding: 30px;
   border-radius: 20px;
   max-width: 600px;
 }
@@ -33,6 +32,7 @@ h1 {
   font-size: 3em;
   font-weight: 700;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 p {
@@ -57,4 +57,10 @@ p {
 
 .btn:hover {
   background-color: #e0e0e0;
+}
+
+.topo {
+  padding-top: 120px; 
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
