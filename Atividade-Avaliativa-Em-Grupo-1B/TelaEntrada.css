@@ -8,7 +8,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url("https://i.pinimg.com/736x/42/c5/5d/42c55d84163b9e20351a40576162e15a.jpg");
+  background-image: url("https://i.pinimg.com/736x/b6/ae/54/b6ae5426574e5e98c8c8e26e8e90cd57.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,38 +20,6 @@ body {
   align-items: center;
   text-align: center;
 }
-
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 20px 0;
-  z-index: 1000;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 20px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 8px 16px;
-  transition: background 0.3s ease;
-}
-
-nav a:hover {
-  background-color: rgba(197, 79, 79, 0.2);
-  border-radius: 8px;
-}
-
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
