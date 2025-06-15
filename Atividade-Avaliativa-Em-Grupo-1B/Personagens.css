@@ -5,17 +5,27 @@ table {
         background-color: #1a1a40;
         color: white;
         box-shadow: 0 0 10px #00d9ff66;
-        }
+}
 
-th, td {
+th,
+td {
         border: 3px solid #722479;
         padding: 12px;
         text-align: center;
-        }
+}
 
 th {
-    background-color: #7528759a;
-        }
+        background-color: #7528759a;
+}
+
 ul {
-    text-align: left;
-        }
+        text-align: left;
+}
+
+h2.t2 {
+        text-align: center;
+}
+
+h2.t2::before {
+        content: none;
+}
