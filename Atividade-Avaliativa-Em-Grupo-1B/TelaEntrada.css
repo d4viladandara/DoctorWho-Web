@@ -9,14 +9,25 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-image: url("https://t90131550257.p.clickup-attachments.com/t90131550257/64c73eb7-73c5-4028-aa4d-f4702caf38a0/generated-image-0350498c-7417-4bdd-87ad-b73d582809cf.png?view=open");
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-size: cover;
+  min-height: 100vh;
   color: #fff;
+
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  color: #e0e0e0;
   text-align: center;
 }
 
@@ -25,21 +36,22 @@ body {
   padding: 30px;
   border-radius: 20px;
   max-width: 600px;
+  margin: 0 auto;
 }
 
 h1 {
   color: rgb(33, 184, 255);
   font-size: 3em;
   font-weight: 700;
-  margin-bottom: 20px;
-  margin-top: 0;
+  margin-bottom: 10px; 
+  padding-left: 10px;
 }
 
-p {
-  font-size: 1.2em;
-  margin-bottom: 40px;
-  color: #e0e0e0;
+.topo {
+  padding-top: 70px; 
+  margin-bottom: 1px;
 }
+
 
 .btn {
   background-color: #fff;
@@ -59,8 +71,4 @@ p {
   background-color: #e0e0e0;
 }
 
-.topo {
-  padding-top: 120px; 
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
+
