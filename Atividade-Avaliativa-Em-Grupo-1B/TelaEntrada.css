@@ -14,7 +14,6 @@ body {
   background-size: cover;
   min-height: 100vh;
   color: #fff;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,6 +49,7 @@ h1 {
 .topo {
   padding-top: 70px; 
   margin-bottom: 1px;
+  background: none;
 }
 
 
